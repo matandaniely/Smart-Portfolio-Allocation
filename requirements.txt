@@ -1,0 +1,9 @@
+pandas
+ipywidgets
+matplotlib
+yfinance
+seaborn
+openpyxl
+gradio
+plotly
+scipy
