@@ -1,10 +1,10 @@
-# 📊 Robo-Advisor Portfolio Analyzer
+# Robo-Advisor Portfolio Analyzer
 
 An interactive investment advisory tool built in Python that simulates personalized portfolios based on user preferences and risk profiles. The application combines financial analytics, portfolio optimization, and an intuitive Gradio interface to deliver insights on asset allocation, ESG integration, and investment performance.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **User Questionnaire**: Collects personal and financial details including investment goals, income, net worth, and ESG preference.       This part is aimed at simulating a registration phase. It does not effect other stages in the process and does not save the information.     
 <img width="1021" height="681" alt="User Personal Info" src="https://github.com/user-attachments/assets/dd9f46cb-3c4e-46f6-9466-6473e05afa9f" />
@@ -41,17 +41,17 @@ The key feature of this tool is the efficient frontier—a curve that connects t
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 - Financial Analytics & Portfolio Theory (CAPM, Sharpe Ratio, Volatility)     
 - Python Libraries: `pandas`, `numpy`, `matplotlib`, `scipy.optimize`, `yfinance`, `seaborn`     
 - UI/UX with `gradio` for interactive, tabbed user flows     
 - Data Preprocessing, Time Series Returns, and Covariance Estimation    
-- Optimization under Constraints (SLSQP)    
+- Sequential Least Squares Programming (SLSQP) - Optimization under Constraints. SLSQP is often used to optimize portfolio weights subject to constraints   
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 robo-advisor/       
 ├── app.py                 # Main Gradio app logic and layout     
