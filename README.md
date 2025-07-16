@@ -45,7 +45,7 @@ Asset Level Metrics:
 
 ## 🗂️ Project Structure
 
-robo-advisor/
+robo-advisor/       
 ├── app.py                 # Main Gradio app logic and layout     
 ├── config.py              # Asset definitions and portfolio weight mappings     
 ├── data_loader.py         # Fetches historical asset price data via yfinance    
