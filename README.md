@@ -7,24 +7,29 @@ An interactive investment advisory tool built in Python that simulates personali
 ## 🚀 Features
 
 - **User Questionnaire**: Collects personal and financial details including investment goals, income, net worth, and ESG preference.
-  <img width="1470" height="956" alt="User Personal Info" src="https://github.com/user-attachments/assets/a4736a81-1f4d-460e-9030-78cd44e39b29" />
+<img width="1021" height="681" alt="User Personal Info" src="https://github.com/user-attachments/assets/dd9f46cb-3c4e-46f6-9466-6473e05afa9f" />
+
 
 - **Risk Profiling**: Uses behavioral questions to assess user risk appetite and classify into Conservative, Moderate, or Aggressive profiles.
-- <img width="1470" height="956" alt="Risk Profile" src="https://github.com/user-attachments/assets/6bd8f913-a518-4c49-bd46-88c05f3b6872" />
+<img width="1021" height="669" alt="Risk Profile" src="https://github.com/user-attachments/assets/ed18f1a6-c7b7-4f4d-a378-de9f9c5716ab" />
+
 
 - **Portfolio Analyzer**: 
   - Simulates portfolio growth over time based on historical data.
   - Calculates key performance metrics: annualized return, volatility, Sharpe ratio.
   - Generates asset-level insights and correlation heatmaps.
-    <img width="1470" height="956" alt="Portfolio Analyzer" src="https://github.com/user-attachments/assets/d7f96b30-a6ff-4996-b141-7b7364f52ae0" />
-    <img width="1470" height="956" alt="Asset Level Metrics" src="https://github.com/user-attachments/assets/a813a98e-fed5-4d87-a0ce-6eca47cba65b" />
+<img width="1008" height="664" alt="Portfolio Analyzer" src="https://github.com/user-attachments/assets/4ef37f02-fa5e-4bca-8ee8-f6862212394f" />
+
+Asset Level Metrics:
+<img width="718" height="620" alt="Asset Level Metriccs" src="https://github.com/user-attachments/assets/d4221c99-a6e1-46d1-bdae-9856eb9f473f" />
 
 
 - **Efficient Frontier Optimization**:
   - Visualizes optimal portfolios based on risk-return trade-offs.
   - Implements constraints for diversification (min 5% per asset, max 5 assets).
   - Compares Sharpe-optimal and minimum-volatility portfolios for ESG and non-ESG universes.
-  - <img width="1470" height="956" alt="Efficient Frontier" src="https://github.com/user-attachments/assets/1ad7632f-883b-4dcf-b137-5b0cc0211220" />
+<img width="1067" height="669" alt="Efficient Frontier" src="https://github.com/user-attachments/assets/64f53bef-5f74-497c-9cbe-e152fb4d6954" />
+
 
 ---
 
