@@ -26,7 +26,10 @@ Asset Level Metrics:    An allocation distribution table that the customer can s
 <img width="718" height="620" alt="Asset Level Metriccs" src="https://github.com/user-attachments/assets/d4221c99-a6e1-46d1-bdae-9856eb9f473f" />
 
 
-- **Efficient Frontier Optimization**:    A more advanced tool that can create an advised portfolio - based on the assets given to it - to simualte many combinations of weights given to assets (in this case 5000 simulations) that create an efficient frontier graph on a space of Volatilty vs. Expected returns. It is a powerful tool for an investor to plan their allocation of investemnts to which type of an asset. The advantage of this tool is that it creates an "efficient frontier" which is the invisible curve created by every dot. That curve is where the most efficient combination of assets are created in a portfolio and an investor is advised to choose from this line where there is the trade-off between volatilty and expected returns. 
+- **Efficient Frontier Optimization**:    
+This is an advanced tool that constructs an optimized investment portfolio based on a set of given assets. It simulates thousands of possible asset weight combinations (e.g., 5,000 simulations) to generate a graph plotting Expected Return against Volatility. Each point on the graph represents a potential portfolio configuration.     
+
+The key feature of this tool is the efficient frontier—a curve that connects the portfolios offering the highest expected return for a given level of risk (volatility). This frontier helps investors identify optimal portfolios that balance risk and return effectively. By selecting a point on this curve, investors can make more informed decisions about how to allocate their capital across different asset types.       
   - Visualizes optimal portfolios based on risk-return trade-offs.    
   - Implements constraints for diversification (min 5% per asset, max 5 assets). I created this restriction as sometimes it would allocate more than 90% to one type of an asset and 0.01% to another.      
   - Compares Sharpe-optimal and minimum-volatility portfolios for ESG and non-ESG universes.    
