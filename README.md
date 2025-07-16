@@ -10,7 +10,10 @@ An interactive investment advisory tool built in Python that simulates personali
 <img width="1021" height="681" alt="User Personal Info" src="https://github.com/user-attachments/assets/dd9f46cb-3c4e-46f6-9466-6473e05afa9f" />
 
 
-- **Risk Profiling**: Uses behavioral questions to assess user risk appetite and classify into Conservative, Moderate, or Aggressive profiles.       This questionnaire allows the user to understand what type of an investor they are from three categories:      - Conservative (a profile that would prefer safety over gains, the future result of the recommended portfolio would be a low volatilty combination of allocated assets and lower returns).      - Moderate (a portfolio that is more balaced, allocating more investments towards riskier assets that promise higher yields).      - Aggressive ( a profile that would allocate more investments towards riskier assets, but that have to potential to yield higher returns). 
+- **Risk Profiling**: Uses behavioral questions to assess user risk appetite and classify into Conservative, Moderate, or Aggressive profiles.       This questionnaire allows the user to understand what type of an investor they are from three categories:        
+  - Conservative (a profile that would prefer safety over gains, the future result of the recommended portfolio would be a low volatilty combination of allocated assets and lower returns).       
+  - Moderate (a portfolio that is more balaced, allocating more investments towards riskier assets that promise higher yields).        
+  - Aggressive ( a profile that would allocate more investments towards riskier assets, but that have to potential to yield higher returns).      
 <img width="1021" height="669" alt="Risk Profile" src="https://github.com/user-attachments/assets/ed18f1a6-c7b7-4f4d-a378-de9f9c5716ab" />
 
 
