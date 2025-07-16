@@ -15,19 +15,19 @@ An interactive investment advisory tool built in Python that simulates personali
 
 
 - **Portfolio Analyzer**: 
-  - Simulates portfolio growth over time based on historical data.
-  - Calculates key performance metrics: annualized return, volatility, Sharpe ratio.
-  - Generates asset-level insights and correlation heatmaps.
+  - Simulates portfolio growth over time based on historical data.    
+  - Calculates key performance metrics: annualized return, volatility, Sharpe ratio.    
+  - Generates asset-level insights and correlation heatmaps.    
 <img width="1008" height="664" alt="Portfolio Analyzer" src="https://github.com/user-attachments/assets/4ef37f02-fa5e-4bca-8ee8-f6862212394f" />
 
-Asset Level Metrics:
+Asset Level Metrics:    
 <img width="718" height="620" alt="Asset Level Metriccs" src="https://github.com/user-attachments/assets/d4221c99-a6e1-46d1-bdae-9856eb9f473f" />
 
 
-- **Efficient Frontier Optimization**:
-  - Visualizes optimal portfolios based on risk-return trade-offs.
-  - Implements constraints for diversification (min 5% per asset, max 5 assets).
-  - Compares Sharpe-optimal and minimum-volatility portfolios for ESG and non-ESG universes.
+- **Efficient Frontier Optimization**:    
+  - Visualizes optimal portfolios based on risk-return trade-offs.    
+  - Implements constraints for diversification (min 5% per asset, max 5 assets).     
+  - Compares Sharpe-optimal and minimum-volatility portfolios for ESG and non-ESG universes.    
 <img width="1067" height="669" alt="Efficient Frontier" src="https://github.com/user-attachments/assets/64f53bef-5f74-497c-9cbe-e152fb4d6954" />
 
 
@@ -35,23 +35,23 @@ Asset Level Metrics:
 
 ## 🧠 Skills Demonstrated
 
-- Financial Analytics & Portfolio Theory (CAPM, Sharpe Ratio, Volatility)
-- Python Libraries: `pandas`, `numpy`, `matplotlib`, `scipy.optimize`, `yfinance`, `seaborn`
-- UI/UX with `gradio` for interactive, tabbed user flows
-- Data Preprocessing, Time Series Returns, and Covariance Estimation
-- Optimization under Constraints (SLSQP)
+- Financial Analytics & Portfolio Theory (CAPM, Sharpe Ratio, Volatility)     
+- Python Libraries: `pandas`, `numpy`, `matplotlib`, `scipy.optimize`, `yfinance`, `seaborn`     
+- UI/UX with `gradio` for interactive, tabbed user flows     
+- Data Preprocessing, Time Series Returns, and Covariance Estimation    
+- Optimization under Constraints (SLSQP)    
 
 ---
 
 ## 🗂️ Project Structure
 
 robo-advisor/
-├── app.py                 # Main Gradio app logic and layout
-├── config.py              # Asset definitions and portfolio weight mappings
-├── data_loader.py         # Fetches historical asset price data via yfinance
-├── analysis.py            # Portfolio construction and analytics
-├── optimization.py        # Efficient Frontier and constrained optimization
-├── questionnaire.py       # User and risk profile logic
-├── utils.py               # Helper functions (e.g., geometric returns)
-├── assets/
-│ └── asset_returns.csv    # Preprocessed historical returns
+├── app.py                 # Main Gradio app logic and layout     
+├── config.py              # Asset definitions and portfolio weight mappings     
+├── data_loader.py         # Fetches historical asset price data via yfinance    
+├── analysis.py            # Portfolio construction and analytics     
+├── optimization.py        # Efficient Frontier and constrained optimization    
+├── questionnaire.py       # User and risk profile logic    
+├── utils.py               # Helper functions (e.g., geometric returns)     
+├── assets/      
+│ └── asset_returns.csv    # Preprocessed historical returns    
